@@ -1,0 +1,1030 @@
+/*! CSS Used from: Embedded */
+a, body, button, div, footer, h2, header, iframe, img, li, nav, p, span, ul, wix-iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+wix-iframe {
+    display: block;
+}
+
+body {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+}
+
+body {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+:focus {
+    outline: 0;
+}
+
+.SITE_ROOT {
+    min-height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.siteAspectsContainer {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#popoverLayer {
+    z-index: 100;
+}
+
+.g-transparent-a:link, .g-transparent-a:visited {
+    border-color: transparent;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: max-content max-content min-content max-content;
+    grid-template-rows:-webkit-max-content -webkit-max-content -webkit-min-content -webkit-max-content;
+    grid-template-rows:max-content max-content min-content max-content;
+    -ms-grid-columns: 100%;
+    grid-template-columns:100%;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    align-items: start;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    justify-content: stretch;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] #PAGES_CONTAINER, #masterPage.mesh-layout[data-mesh-layout=grid] #SITE_FOOTER, #masterPage.mesh-layout[data-mesh-layout=grid] #SITE_HEADER, #masterPage.mesh-layout[data-mesh-layout=grid] #soapAfterPagesContainer {
+    -ms-grid-column: 1;
+    -ms-grid-row-align: start;
+    -ms-grid-column-align: start;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] #SITE_HEADER {
+    -ms-grid-row: 1;
+    grid-area: 1/1/2/2;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] #PAGES_CONTAINER, #masterPage.mesh-layout[data-mesh-layout=grid] #soapAfterPagesContainer {
+    -ms-grid-row: 3;
+    grid-area: 3/1/4/2;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] #soapAfterPagesContainer {
+    width: 100%;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] #PAGES_CONTAINER {
+    -webkit-align-self: stretch;
+    align-self: stretch;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] main#PAGES_CONTAINER {
+    display: block;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] #SITE_FOOTER {
+    -ms-grid-row: 4;
+    grid-area: 4/1/5/2;
+}
+
+#masterPage.mesh-layout[data-mesh-layout=grid] #PAGES_CONTAINERcenteredContent, #masterPage.mesh-layout[data-mesh-layout=grid] #PAGES_CONTAINERinlineContent {
+    height: 100%;
+}
+
+#masterPage.mesh-layout #PAGES_CONTAINER, #masterPage.mesh-layout #SITE_FOOTER, #masterPage.mesh-layout #SITE_HEADER {
+    position: relative;
+}
+
+wix-image {
+    display: block;
+}
+
+/*! CSS Used from: Embedded */
+.font_2 {
+    font: normal normal normal 23px/1.4em wfont_3b2128_72d828c16ce2445c9d10674d5c50b002, wf_72d828c16ce2445c9d10674d5, orig_conthraxsbregular;
+    color: #51D6BB;
+}
+
+.font_8 {
+    font: normal normal normal 17px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+    color: #FFFFFF;
+}
+
+.font_9 {
+    font: normal normal normal 12px/1.3em Basic, sans-serif;
+    color: #FFFFFF;
+}
+
+/*! CSS Used from: Embedded */
+.style-jz6ve09j {
+    display: none;
+}
+
+/*! CSS Used from: Embedded */
+.style-kf0g78qzitemsContainer {
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    white-space: nowrap;
+    display: inline-block;
+    overflow: visible;
+    position: absolute;
+}
+
+.style-kf0g78qzmoreContainer {
+    overflow: visible;
+    display: inherit;
+    white-space: nowrap;
+    width: auto;
+    border: solid 2px transparent;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.style-kf0g78qzdropWrapper {
+    z-index: 99999;
+    display: block;
+    opacity: 1;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 7px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.style-kf0g78qz > nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.style-kf0g78qznavContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.style-kf0g78qzrepeaterButton {
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 0px;
+}
+
+.style-kf0g78qzrepeaterButton[data-state~="header"] a, .style-kf0g78qzrepeaterButton[data-state~="header"] div {
+    cursor: default !important;
+}
+
+.style-kf0g78qzrepeaterButtonlinkElement {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.style-kf0g78qzrepeaterButtonlabel {
+    transition: color 0.4s ease 0s;
+    font: normal normal 700 12px/1.4em brandon-grot-w01-light, sans-serif;
+    color: #DBDBDB;
+    display: inline-block;
+}
+
+.style-kf0g78qzrepeaterButton_wrapper {
+    transition: background-color 0.4s ease 0s;
+    border-radius: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.style-kf0g78qzrepeaterButtonborderWrapper {
+    transition: border-color 0.4s ease 0s;
+    border-radius: 0;
+    border: solid 2px transparent;
+}
+
+.style-kf0g78qzrepeaterButton[data-state~="selected"] .style-kf0g78qzrepeaterButton_wrapper {
+    transition: background-color 0.4s ease 0s;
+}
+
+.style-kf0g78qzrepeaterButton[data-state~="selected"] .style-kf0g78qzrepeaterButtonlabel {
+    transition: color 0.4s ease 0s;
+}
+
+.style-kf0g78qzrepeaterButton[data-state~="selected"] .style-kf0g78qzrepeaterButtonborderWrapper {
+    transition: border-color 0.4s ease 0s;
+}
+
+.style-kf0g78qzrepeaterButton[data-state~="selected"] .style-kf0g78qzrepeaterButtonlabel {
+    color: #DBDBDB;
+}
+
+.style-kf0g78qzrepeaterButton[data-state~="selected"] .style-kf0g78qzrepeaterButton_wrapper {
+    background-color: transparent;
+}
+
+.style-kf0g78qzrepeaterButton[data-state~="selected"] .style-kf0g78qzrepeaterButtonborderWrapper {
+    border-color: transparent;
+}
+
+/*! CSS Used from: Embedded */
+.lb1[data-is-responsive~="false"] .lb1itemsContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.lb1itemsContainer > li:last-child {
+    margin: 0 !important;
+}
+
+.lb1 a {
+    display: block;
+    height: 100%;
+}
+
+.lb1imageItemlink {
+    cursor: pointer;
+}
+
+/*! CSS Used from: Embedded */
+.pc1screenWidthBackground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.pc1bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*! CSS Used from: Embedded */
+.siteBackground {
+    width: 100%;
+    position: absolute;
+}
+
+/*! CSS Used from: Embedded */
+.style-keva8fe2screenWidthBackground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    background-image: url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/ironpatern.png);
+}
+
+.style-keva8fe2_bg {
+    box-shadow: inset 0 4px 6px -4px rgba(255, 255, 255, 0.59), inset 0 1px 0 0 rgba(255, 255, 255, 0.59), inset 0 -5px 5px -5px rgba(255, 255, 255, 0.9);
+}
+
+/*! CSS Used from: Embedded */
+.style-kevotq9nscreenWidthBackground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.style-kevotq9n_bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-top: 0px solid rgba(38, 32, 39, 1);
+    border-bottom: 0px solid rgba(38, 32, 39, 1);
+}
+
+.style-kevotq9nbg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.style-kevotq9n_bg-center {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 0;
+}
+
+/*! CSS Used from: Embedded */
+.txtNew {
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.txtNew > * {
+    pointer-events: auto;
+}
+
+.txtNew p {
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.txtNew h2 {
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.txtNew a {
+    color: inherit;
+}
+
+/*! CSS Used from: Embedded */
+.style-kevnblrxbg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.style-kevnblrxinlineContent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*! CSS Used from: Embedded */
+.style-jisfnfju {
+    overflow: hidden;
+}
+
+.style-jisfnfju iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.style-jisfnfju iframe:-webkit-full-screen {
+    min-height: auto !important;
+}
+
+/*! CSS Used from: Embedded */
+.style-kerwbap6link {
+    display: block;
+    border-radius: 0;
+    background-color: transparent;
+    border: 2px solid transparent;
+    overflow: hidden;
+    height: 100%;
+}
+
+.style-kerwbap6img {
+    overflow: hidden;
+    border-radius: calc(0px - 2px);
+}
+
+/*! CSS Used from: Embedded */
+.wp2link {
+    display: block;
+    border-radius: 0;
+    background-color: transparent;
+    border: 2px solid transparent;
+    overflow: hidden;
+    height: 100%;
+}
+
+.wp2img {
+    overflow: hidden;
+    border-radius: calc(0px - 2px);
+}
+
+/*! CSS Used from: Embedded */
+.style-ketm1jde[data-state~="shouldUseFlex"] .style-ketm1jdelink {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+}
+
+.style-ketm1jde[data-state~="shouldUseFlex"][data-state~="center"] .style-ketm1jdelink {
+    justify-content: center;
+}
+
+.style-ketm1jdelink {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.style-ketm1jdelabel {
+    font: normal normal normal 13px/1.4em avenir-lt-w01_85-heavy1475544, sans-serif;
+    transition: color 0.4s ease 0s;
+    color: #000000;
+    display: inline-block;
+    margin: calc(-1 * 2px) 2px 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.style-ketm1jde[data-state~="shouldUseFlex"] .style-ketm1jdelabel {
+    margin: 0;
+}
+
+.style-ketm1jde[data-disabled="false"] .style-ketm1jdelink {
+    background-color: rgba(219, 219, 219, 1);
+    border: solid rgba(50, 50, 50, 1) 2px;
+    cursor: pointer !important;
+}
+
+.style-ketm1jde[data-disabled="false"]:hover[data-state~="desktop"] .style-ketm1jdelink {
+    background-color: rgba(219, 219, 219, 1);
+    border-color: transparent;
+}
+
+.style-ketm1jde[data-disabled="false"]:hover[data-state~="desktop"] .style-ketm1jdelabel {
+    color: #000000;
+}
+
+/*! CSS Used from: Embedded */
+.AutoWidthAnchorSkin {
+    pointer-events: none !important;
+}
+
+/*! CSS Used from: Embedded */
+.controller1 {
+    display: none;
+}
+
+/*! CSS Used from: Embedded */
+.style-kf0g7ffg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+.style-kf0g7ffg[data-state~="ltr"] .style-kf0g7ffgicon {
+    padding-right: 14px;
+    padding-left: initial;
+}
+
+.style-kf0g7ffg[data-state~="ltr"] .style-kf0g7ffgbuttons {
+    padding-left: 14px;
+    padding-right: initial;
+}
+
+.style-kf0g7ffg[data-state~="ltr"] .style-kf0g7ffglogin {
+    padding-right: 14px;
+    padding-left: initial;
+}
+
+.style-kf0g7ffg[data-state~="ltr"][data-state~="textOnly"] .style-kf0g7ffglogin {
+    padding-left: 14px;
+}
+
+.style-kf0g7ffg[data-state~="loggedOut"] {
+    background-color: transparent;
+    border: 0px solid rgba(38, 32, 39, 1);
+    border-radius: 0;
+}
+
+.style-kf0g7ffg[data-state~="loggedOut"] .style-kf0g7ffguser, .style-kf0g7ffg[data-state~="loggedOut"] .style-kf0g7ffgdropdownMenu, .style-kf0g7ffg[data-state~="loggedOut"] .style-kf0g7ffgbuttons, .style-kf0g7ffg[data-state~="loggedOut"] .style-kf0g7ffgdropdownMenuMobile {
+    display: none;
+}
+
+.style-kf0g7ffg[data-state~="loggedOut"] .style-kf0g7ffglogin {
+    white-space: nowrap;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #DBDBDB;
+    font: normal normal 700 12px/1.4em brandon-grot-w01-light, sans-serif;
+    border-radius: 0;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.style-kf0g7ffg[data-state~="loggedOut"] .style-kf0g7ffglogin:hover {
+    color: #DBDBDB;
+}
+
+.style-kf0g7ffg[data-state~="loggedOut"] .style-kf0g7ffglogin span {
+    vertical-align: middle;
+}
+
+/*! CSS Used from: Embedded */
+.style-kevpv7r4bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.style-kevpv7r4inlineContent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*! CSS Used from: Embedded */
+#SITE_HEADERinlineContent {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#SITE_HEADERinlineContent-gridWrapper {
+    pointer-events: none;
+}
+
+#SITE_HEADERinlineContent-gridContainer {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows:min-content 1fr;
+    grid-template-columns:100%;
+}
+
+#comp-keruv0tl {
+    position: relative;
+    margin: 9px 0px -35px calc((100% - 980px) * 0.5);
+    left: 12px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#DrpDwnMn0 {
+    position: relative;
+    margin: 0px 0px 12px calc((100% - 980px) * 0.5);
+    left: 362px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-kew5n1mf {
+    position: relative;
+    margin: 0px 0px 12px calc((100% - 980px) * 0.5);
+    left: 819px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#SITE_HEADERcenteredContent {
+    position: relative;
+}
+
+#SITE_HEADERinlineContent-gridContainer > * {
+    pointer-events: auto;
+}
+
+/*! CSS Used from: Embedded ; media=all */
+@media all {
+    #mask-comp-keruv0tlimg-svg * {
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: 0;
+    }
+}
+
+/*! CSS Used from: Embedded */
+#comp-kevb2fcm {
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 20px;
+    position: absolute;
+    grid-area: 1 / 1 / 2 / 2;
+    pointer-events: auto;
+}
+
+/*! CSS Used from: Embedded */
+#mainPageinlineContent {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#mainPageinlineContent-gridWrapper {
+    pointer-events: none;
+}
+
+#mainPageinlineContent-gridContainer {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 3675px;
+    grid-template-rows:1fr;
+    grid-template-columns:100%;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#comp-kevalkx2 {
+    position: relative;
+    margin: 2703px 0 0 0;
+    left: 0;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: stretch;
+    align-self: start;
+}
+
+#mainPageinlineContent-gridContainer > * {
+    pointer-events: auto;
+}
+
+/*! CSS Used from: Embedded */
+#c1c32inlineContent {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#c1c32inlineContent-gridWrapper {
+    pointer-events: none;
+}
+
+#c1c32inlineContent-gridContainer {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 697px;
+    grid-template-rows:min-content min-content min-content 1fr;
+    grid-template-columns:100%;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#comp-ketlzyh0 {
+    position: relative;
+    margin: 42px 0px 60px calc((100% - 980px) * 0.5);
+    left: 303px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-ketlzyh41 {
+    position: relative;
+    margin: 77px 0px 36px calc((100% - 980px) * 0.5);
+    left: 367px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-ketm0mg4 {
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+    left: 154px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-ketm1i9w {
+    position: relative;
+    margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+    left: 418px;
+    grid-area: 4 / 1 / 5 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#c1c32inlineContent-wedge-4 {
+    visibility: hidden;
+    height: 446px;
+    width: 0;
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+#c1c32inlineContent-gridContainer > * {
+    pointer-events: auto;
+}
+
+/*! CSS Used from: Embedded ; media=all */
+@media all {
+    #mask-comp-ketlzyh0img-svg * {
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: 0;
+    }
+}
+
+/*! CSS Used from: Embedded */
+#soapAfterPagesContainerinlineContent-gridContainer {
+    position: static;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#CONTROLLER_COMP_CUSTOM_ID {
+    position: absolute;
+    top: -95px;
+    left: 16px;
+}
+
+#soapAfterPagesContainerinlineContent-gridContainer > * {
+    pointer-events: auto;
+}
+
+/*! CSS Used from: Embedded */
+#SITE_FOOTERinlineContent {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#SITE_FOOTERinlineContent-gridWrapper {
+    pointer-events: none;
+}
+
+#SITE_FOOTERinlineContent-gridContainer {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows:min-content min-content min-content min-content 1fr;
+    grid-template-columns:100%;
+}
+
+#comp-kev9xqnl {
+    position: relative;
+    margin: 39px 0px 15px calc((100% - 980px) * 0.5);
+    left: 36px;
+    grid-area: 1 / 1 / 5 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#LnkBr1 {
+    position: relative;
+    margin: 56px 0px 14px calc((100% - 980px) * 0.5);
+    left: 462px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-keva0t40 {
+    position: relative;
+    margin: 0px 0px 42px calc((100% - 980px) * 0.5);
+    left: 304px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-kf0f965s {
+    position: relative;
+    margin: 65px 0px 42px calc((100% - 980px) * 0.5);
+    left: 847px;
+    grid-area: 1 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#SITE_STRUCTURE_WRichText_1 {
+    position: relative;
+    margin: 0px 0px 8px calc((100% - 980px) * 0.5);
+    left: 371px;
+    grid-area: 5 / 1 / 6 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#SITE_FOOTERcenteredContent {
+    position: relative;
+}
+
+#SITE_FOOTERinlineContent-gridContainer > * {
+    pointer-events: auto;
+}
+
+/*! CSS Used from: Embedded */
+.wix-ads-2 {
+    width: 100%;
+}
+
+.wix-ads-2.visible {
+    display: block;
+    visibility: visible;
+}
+
+.wix-ads-2.desktop {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+
+.wix-ads-2 .ltr {
+    direction: ltr;
+}
+
+.wix-ads-2 .desktop-top {
+    height: 50px;
+    box-sizing: border-box;
+    background: #eff1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #a0138e;
+    width: 100%;
+}
+
+.wix-ads-2 .desktop-top > .contents {
+    display: flex;
+    align-items: center;
+}
+
+.wix-ads-2 .desktop-top > .contents .text {
+    font-family: wixFreemiumFontW01-65Medi, wixFreemiumFontW02-65Medi, wixFreemiumFontW10-65Medi, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+    font-size: 14px;
+    color: #20303C;
+    line-height: 24px;
+    flex-shrink: 0;
+}
+
+.wix-ads-2 .desktop-top > .contents .text .wix-logo {
+    fill: #20303C;
+    width: 36px;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    height: 16px;
+}
+
+.wix-ads-2 .desktop-top > .contents .text .wix-logo > .dot {
+    fill: #fc0;
+}
+
+.wix-ads-2 .desktop-top > .contents .text .com {
+    color: #20303C;
+}
+
+.wix-ads-2 .desktop-top > .contents .button {
+    font-family: wixFreemiumFontW01-65Medi, wixFreemiumFontW02-65Medi, wixFreemiumFontW10-65Medi, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+    font-size: 14px;
+    color: #a0138e;
+    border: 1px solid #a0138e;
+    display: inline-flex;
+    width: 112px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.wix-ads-2 .desktop-top > .contents .button.ltr {
+    margin-left: 6px;
+}
+
+.wix-ads-2 .desktop-top:not(.overlay):hover {
+    cursor: pointer;
+    background: #fff;
+}
+
+.wix-ads-2 .desktop-top:not(.overlay):hover .button {
+    color: #fff;
+    background-color: #a0138e;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: wf_72d828c16ce2445c9d10674d5;
+    src: url(https://static.wixstatic.com/ufonts/3b2128_72d828c16ce2445c9d10674d5c50b002/woff2/file.woff2) format("woff2"), url(https://static.wixstatic.com/ufonts/3b2128_72d828c16ce2445c9d10674d5c50b002/woff/file.woff) format("woff"), url(https://static.wixstatic.com/ufonts/3b2128_72d828c16ce2445c9d10674d5c50b002/ttf/file.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/basic/v10/xfu_0WLxV2_XKTN-6FHlyQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/basic/v10/xfu_0WLxV2_XKTNw6FE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: wixFreemiumFontW01-65Medi;
+    font-weight: 700;
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix);
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix) format("eot"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff) format("woff"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf) format("truetype"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5) format("svg");
+}
+
+@font-face {
+    font-family: "wixFreemiumFontW01-65Medi";
+    font-weight: bold;
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix);
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix) format("eot"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff) format("woff"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf) format("truetype"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5) format("svg");
+}
+
+@font-face {
+    font-family: "wixFreemiumFontW01-65Medi";
+    font-weight: bold;
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix);
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix) format("eot"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff) format("woff"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf) format("truetype"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5) format("svg");
+}
+
+@font-face {
+    font-family: "wixFreemiumFontW02-65Medi";
+    font-weight: bold;
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/55f60419-09c3-42bd-b81f-1983ff093852.eot?#iefix);
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/55f60419-09c3-42bd-b81f-1983ff093852.eot?#iefix) format("eot"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b4a262e-3342-44e2-8ad7-719998a68134.woff) format("woff"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4a3ef5d8-cfd9-4b96-bd67-90215512f1e5.ttf) format("truetype"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/58ab5075-53ea-46e6-9783-cbb335665f88.svg#58ab5075-53ea-46e6-9783-cbb335665f88) format("svg");
+}
+
+@font-face {
+    font-family: "wixFreemiumFontW02-65Medi";
+    font-weight: bold;
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/55f60419-09c3-42bd-b81f-1983ff093852.eot?#iefix);
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/55f60419-09c3-42bd-b81f-1983ff093852.eot?#iefix) format("eot"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b4a262e-3342-44e2-8ad7-719998a68134.woff) format("woff"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4a3ef5d8-cfd9-4b96-bd67-90215512f1e5.ttf) format("truetype"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/58ab5075-53ea-46e6-9783-cbb335665f88.svg#58ab5075-53ea-46e6-9783-cbb335665f88) format("svg");
+}
+
+@font-face {
+    font-family: "wixFreemiumFontW10-65Medi";
+    font-weight: bold;
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/7092fdcc-7036-48ce-ae23-cfbc9be2e3b0.eot?#iefix);
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/7092fdcc-7036-48ce-ae23-cfbc9be2e3b0.eot?#iefix) format("eot"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b29e833-1b7a-40ab-82a5-cfd69c8650f4.woff) format("woff"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/b0298148-2d59-44d1-9ec9-1ca6bb097603.ttf) format("truetype"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/ae1dea8c-a953-4845-b616-74a257ba72e6.svg#ae1dea8c-a953-4845-b616-74a257ba72e6) format("svg");
+}
+
+@font-face {
+    font-family: "wixFreemiumFontW10-65Medi";
+    font-weight: bold;
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/7092fdcc-7036-48ce-ae23-cfbc9be2e3b0.eot?#iefix);
+    src: url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/7092fdcc-7036-48ce-ae23-cfbc9be2e3b0.eot?#iefix) format("eot"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b29e833-1b7a-40ab-82a5-cfd69c8650f4.woff) format("woff"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/b0298148-2d59-44d1-9ec9-1ca6bb097603.ttf) format("truetype"), url(//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/ae1dea8c-a953-4845-b616-74a257ba72e6.svg#ae1dea8c-a953-4845-b616-74a257ba72e6) format("svg");
+}
