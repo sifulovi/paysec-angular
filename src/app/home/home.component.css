@@ -21,24 +21,7 @@
     min-height: 404px;
 }
 
-@font-face {
-    font-family: aaa;
-    src: url("https://static.wixstatic.com/ufonts/3b2128_72d828c16ce2445c9d10674d5c50b002/woff2/file.woff2") format("woff2"),
-    url("https://static.wixstatic.com/ufonts/3b2128_72d828c16ce2445c9d10674d5c50b002/woff/file.woff") format("woff"),
-    url("https://static.wixstatic.com/ufonts/3b2128_72d828c16ce2445c9d10674d5c50b002/ttf/file.ttf") format("ttf");
-}
 
-@font-face {
-    font-family: "BrandonGrotW01-Light";
-    src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot");
-    src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff") format("woff"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light") format("svg");
-}
-
-@font-face {
-    font-family: "BrandonGrotW01-Light";
-    src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot");
-    src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff") format("woff"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light") format("svg");
-}
 
 .title {
     font-family: aaa;
@@ -52,22 +35,7 @@
     font-size: 22px;
 }
 
-.join-btn {
-    cursor: pointer;
-    background-color: rgba(219, 219, 219, 1);
-    width: 130px;
-    height: 50px;
-    border: solid rgba(50, 50, 50, 1) 2px;
-    border-radius: 20px;
-    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-}
 
-.link-btn {
-    margin: 40px auto auto;
-    height: 40px;
-    min-height: 18px;
-    width: 142px;
-}
 
 /*content-2*/
 .content-2 {
