@@ -1,3 +1,58 @@
-p{
-    min-height: 100vh;
+.content-4 {
+    height: auto;
+    width: 100%;
+    min-height: 1013px;
+}
+
+.content-4-title {
+    color: #51D6BB;
+    margin-top: 20px;
+    text-align: center;
+    font-family: aaa;
+    font-size: 38px;
+}
+
+.content-4-address {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "BrandonGrotW01-Light", serif;
+    font-size: 18px;
+}
+.content-4-form {
+    width: 50%;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.required-data {
+    /*display: flex;
+    flex-direction: column;*/
+
+    width: 50%;
+}
+.message {
+    width: 50%;
+}
+
+.message input {
+    margin-bottom: 3px;
+    font-size: 20px;
+    height: 133px;
+    border: 1px solid black;
+    width: 300px
+}
+
+.required-data-field {
+    margin-bottom: 3px;
+    font-size: 20px;
+    height: 40px;
+    border: 1px solid black;
+    width: 300px
+}
+
+.location {
+    text-align: center;
+    margin: 50px auto auto auto;
+    width: 80%;
 }

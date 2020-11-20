@@ -1,3 +1,33 @@
 <app-header></app-header>
-<p>contact works!</p>
+<div class="content-4">
+    <div class="content-4-title">
+        Contact
+    </div>
+    <div class="content-4-address">
+        Level 16, 309 Kent Street, Sydney NSW 2000
+        <br>
+        +61 2 8916 6208
+    </div>
+    <div class="content-4-form">
+        <div class="required-data">
+            <input class="required-data-field" placeholder="Name" type="text">
+            <input class="required-data-field" placeholder="Email" type="text">
+            <input class="required-data-field" placeholder="Subject" type="text">
+        </div>
+        <div class="message">
+            <input placeholder="Message" type="text">
+        </div>
+    </div>
+    <div class="content-4-btn">
+        <div class="link-btn">
+            <button class="join-btn">Join Us</button>
+        </div>
+    </div>
+
+    <div class="location">
+        <agm-map [latitude]="lat" [longitude]="lng" style="height: 400px;">
+            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+        </agm-map>
+    </div>
+</div>
 <app-footer></app-footer>
