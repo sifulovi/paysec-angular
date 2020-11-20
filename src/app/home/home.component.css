@@ -3,8 +3,14 @@
     background-color: white;
 }
 .black-bc {
+    margin: 0;
     background-color: black;
 }
+
+.services {
+    min-height: 550px
+}
+
 .video {
     position: static;
     height: auto;
@@ -121,7 +127,6 @@
 .link-btn {
     margin: 40px auto auto auto;
     height: 40px;
-    min-height: 18px;
     width: 142px;
 }
 
@@ -134,7 +139,6 @@
 .content-4 {
     height: auto;
     width: 100%;
-    min-height: 1013px;
 }
 
 .content-4-title {
@@ -152,17 +156,22 @@
     font-size: 18px;
 }
 .content-4-form {
-    width: 50%;
     margin: 15px auto auto auto;
     display: flex;
     justify-content: center;
 }
 
-.required-data {
-    /*display: flex;
-    flex-direction: column;*/
+.aaa {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
 
-    width: 50%;
+.required-data {
+
+    display: flex;
+    flex-direction: column;
 }
 .message {
     width: 50%;
@@ -173,7 +182,7 @@
     font-size: 20px;
     height: 133px;
     border: 1px solid black;
-    width: 300px
+    width: 50%;
 }
 
 .required-data-field {
@@ -181,7 +190,7 @@
     font-size: 20px;
     height: 40px;
     border: 1px solid black;
-    width: 300px
+    width: 100%
 }
 
 .location {

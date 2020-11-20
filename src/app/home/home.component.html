@@ -26,8 +26,8 @@
     </div>
 
 
-    <div class="black-bc uk-child-width-expand@s uk-text-center" uk-grid>
-        <div class="service">
+    <div class="black-bc  uk-child-width-expand@s uk-text-center" uk-grid>
+        <div class="service services">
             <div class="service-icon">
                 <img class="service-icons" src="assets/images/services.webp" alt="">
             </div>
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="security">
+        <div class="security  services">
             <div class="security-icon">
                 <img class="service-icons" src="assets/images/security.webp" alt="">
 
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="partner">
+        <div class="partner services">
             <div class="partner-icon">
                 <img class="service-icons" src="assets/images/partner.webp" alt="">
             </div>
@@ -89,8 +89,8 @@
     </div>
 
 
-    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-        <div class="black-bc">
+    <div class="black-bc  uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
             <video loop muted playsinline uk-video="autoplay: inview">
                 <source src="https://video.wixstatic.com/video/3b2128_43a6f8d13c3c44c6aeb099b5c3dce4f9/1080p/mp4/file.mp4" type="video/mp4">
                 Your browser does not support HTML video.
@@ -101,46 +101,47 @@
                     <button class="join-btn">Join Us</button>
                 </div>
             </div>
+        </div>
+    </div>
 
+    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+
+        <div class="content-4">
+
+            <div class="content-4-title">
+                Contact
+            </div>
+            <div class="content-4-address">
+                Level 16, 309 Kent Street, Sydney NSW 2000
+                <br>
+                +61 2 8916 6208
+            </div>
+
+            <div class="aaa">
+                <div class="required-data">
+                    <input class="required-data-field" placeholder="Name" type="text">
+                    <input class="required-data-field" placeholder="Email" type="text">
+                    <input class="required-data-field" placeholder="Subject" type="text">
+                </div>
+                <div class="message">
+                    <input placeholder="Message" type="text">
+                </div>
+            </div>
+
+            <div class="content-4-btn">
+                <div class="link-btn">
+                    <button class="join-btn">Join Us</button>
+                </div>
+            </div>
+
+            <div class="location">
+                <agm-map [latitude]="lat" [longitude]="lng" style="height: 400px;">
+                    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+                </agm-map>
+            </div>
         </div>
     </div>
 
 
-
-
-
-
-
-    <div class="content-4">
-        <div class="content-4-title">
-            Contact
-        </div>
-        <div class="content-4-address">
-            Level 16, 309 Kent Street, Sydney NSW 2000
-            <br>
-            +61 2 8916 6208
-        </div>
-        <div class="content-4-form">
-            <div class="required-data">
-                <input class="required-data-field" placeholder="Name" type="text">
-                <input class="required-data-field" placeholder="Email" type="text">
-                <input class="required-data-field" placeholder="Subject" type="text">
-            </div>
-            <div class="message">
-                <input placeholder="Message" type="text">
-            </div>
-        </div>
-        <div class="content-4-btn">
-            <div class="link-btn">
-                <button class="join-btn">Join Us</button>
-            </div>
-        </div>
-
-        <div class="location">
-            <agm-map [latitude]="lat" [longitude]="lng" style="height: 400px;">
-                <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-            </agm-map>
-        </div>
-    </div>
 </div>
 <app-footer></app-footer>
