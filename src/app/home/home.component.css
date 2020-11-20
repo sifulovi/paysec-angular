@@ -186,4 +186,9 @@
     width: 300px
 }
 
+.location {
+    text-align: center;
+    margin: 50px auto auto auto;
+    width: 80%;
+}
 

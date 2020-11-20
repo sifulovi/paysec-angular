@@ -13,6 +13,7 @@ import { PaynowComponent } from './paynow/paynow.component';
 import { JoinUsComponent } from './join-us/join-us.component';
 import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
+import {AgmCoreModule} from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,10 @@ import { ErrorComponent } from './error/error.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAUnuPXweOavCoI5FlyO5z4UXf_6y74Zfg'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
