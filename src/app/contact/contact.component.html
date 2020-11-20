@@ -1,32 +1,38 @@
 <app-header></app-header>
-<div class="content-4">
-    <div class="content-4-title">
-        Contact
-    </div>
-    <div class="content-4-address">
-        Level 16, 309 Kent Street, Sydney NSW 2000
-        <br>
-        +61 2 8916 6208
-    </div>
-    <div class="content-4-form">
-        <div class="required-data">
-            <input class="required-data-field" placeholder="Name" type="text">
-            <input class="required-data-field" placeholder="Email" type="text">
-            <input class="required-data-field" placeholder="Subject" type="text">
+<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+    <div class="content-4">
+        <div class="content-4-title">
+            Contact
         </div>
-        <div class="message">
-            <input placeholder="Message" type="text">
+        <div class="content-4-address">
+            Level 16, 309 Kent Street, Sydney NSW 2000
+            <br>
+            +61 2 8916 6208
         </div>
-    </div>
-    <div class="content-4-btn">
-        <div class="link-btn">
-            <button class="join-btn">Join Us</button>
+
+        <div class="contact-section">
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <div>
+                    <input class="required-data-field" placeholder="Name" type="text">
+                    <input class="required-data-field" placeholder="Email" type="text">
+                    <input class="required-data-field" placeholder="Subject" type="text">
+                </div>
+                <div>
+                    <input class="message-input" placeholder="Message" type="text">
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="location">
-        <agm-map [latitude]="lat" [longitude]="lng" style="height: 400px;">
-            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-        </agm-map>
+        <div style="margin-top: 20px">
+            <div class="link-btn">
+                <button class="join-btn">Join Us</button>
+            </div>
+        </div>
+
+        <div class="location">
+            <agm-map [latitude]="lat" [longitude]="lng" style="height: 400px;">
+                <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map>
+        </div>
     </div>
 </div>
 <app-footer></app-footer>
