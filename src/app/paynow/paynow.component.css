@@ -1,3 +1,46 @@
-p{
-    min-height: 100vh;
+
+.pay {
+    color: white;
+    font-family: BrandonGrotW01-Light;
+    background-color: black;
+
+}
+
+h3 {
+    margin-top: 30px;
+    color: white;
+    font-family: aaa;
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+input {
+    font-family: BrandonGrotW01-Light;
+    width: 100%;
+}
+
+.input-v1 {
+    margin-bottom: 20px;
+}
+
+.save-btn button {
+    font-family: BrandonGrotW01-Light;
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+}
+
+.next-btn {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.next-btn button {
+    height: 30px;
+    width: 90%;
 }

@@ -1,3 +1,122 @@
 <app-header></app-header>
-<p>paynow works!</p>
+<div class="pay">
+    <div *ngIf="fistStep" class="content">
+        <div class="header">
+            <h3>Step 1</h3>
+            <p>Payment Form</p>
+        </div>
+        <div class="form">
+            <div class="input-v1">
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="input-v1">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="input-v1">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="input-v1">
+                <input type="text" placeholder="Phone">
+            </div>
+            <div class="input-v1">
+                <input type="text">
+                <span>Street Address</span>
+            </div>
+
+            <div class="input-v1">
+                <input type="text">
+                <span>Street Address 2</span>
+            </div>
+            <div class="input-v1">
+                <input type="text">
+                <span>City</span>
+            </div>
+
+            <div class="input-v1">
+                <input type="text">
+                <span>State/Province</span>
+            </div>
+            <div class="input-v1">
+                <input type="text">
+                <span>Postal/ZipCode</span>
+            </div>
+            <hr>
+            <div class="input-v1 save-btn">
+                <button>Save</button>
+            </div>
+            <div class="next-btn">
+                <button (click)="stepHandler()">Next</button>
+            </div>
+
+
+        </div>
+    </div>
+    <div *ngIf="!fistStep" class="content">
+        <div class="header">
+            <h3>Step 1</h3>
+            <p>Payment To</p>
+        </div>
+        <div class="form">
+            <div class="input-v1">
+                <input type="text" placeholder="Company Name">
+            </div>
+            <div class="input-v1">
+                <input type="text" placeholder="Contact Person">
+            </div>
+            <div class="input-v1">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="input-v1">
+                <input type="text" placeholder="Phone">
+            </div>
+            <div class="input-v1">
+                <input type="text">
+                <span>Street Address</span>
+            </div>
+
+            <div class="input-v1">
+                <input type="text">
+                <span>Street Address 2</span>
+            </div>
+            <div class="input-v1">
+                <input type="text">
+                <span>City</span>
+            </div>
+
+            <div class="input-v1">
+                <input type="text">
+                <span>State/Province</span>
+            </div>
+            <div class="input-v1">
+                <input type="text">
+                <span>Postal/ZipCode</span>
+            </div>
+
+            <div class="input-v1">
+                <input type="text" placeholder="Account Name">
+            </div>
+
+            <div class="input-v1">
+                <input type="text" placeholder="BSB">
+            </div>
+            <div class="input-v1">
+                <input type="text" placeholder="Account Number">
+            </div>
+
+            <div class="input-v1">
+                <input type="text" placeholder="Swift Code">
+            </div>
+
+            <div class="input-v1">
+                <input type="text" placeholder="Address Details">
+            </div>
+            <hr>
+            <div class="input-v1 save-btn">
+                <button>Save</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
 <app-footer></app-footer>
