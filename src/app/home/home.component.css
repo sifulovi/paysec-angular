@@ -1,11 +1,11 @@
 .container {
     width: 100%;
-    min-height: 100vh;
     background-color: white;
 }
-
+.black-bc {
+    background-color: black;
+}
 .video {
-    background-color: #3D161A;
     position: static;
     height: auto;
     width: 100%;
@@ -24,11 +24,9 @@
 
 .title {
     font-family: aaa;
-    font-size: 47px;
 }
 
 .details {
-
     font-family: "BrandonGrotW01-Light", serif;
     margin-top: 20px;
     font-size: 22px;
