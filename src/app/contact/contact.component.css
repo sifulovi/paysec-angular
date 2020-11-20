@@ -18,6 +18,7 @@
     font-family: "BrandonGrotW01-Light", serif;
     font-size: 18px;
 }
+
 .content-4-form {
     width: 50%;
     margin: 15px auto auto auto;
@@ -26,11 +27,9 @@
 }
 
 .required-data {
-    /*display: flex;
-    flex-direction: column;*/
-
     width: 50%;
 }
+
 .message {
     width: 50%;
 }
