@@ -56,9 +56,12 @@
         text-decoration: none;
         color: white;
         cursor: pointer;
-        font-size: 12px;
+        font-size: 15px;
     }
+
     .link-phone a {
+        font-family: ufont;
+        text-decoration: none;
         padding: 2px;
     }
 }
