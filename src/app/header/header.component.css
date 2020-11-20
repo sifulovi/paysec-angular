@@ -15,7 +15,8 @@
     justify-content: space-between;
     flex-direction: row;
 }
-.link {
+
+.link-pc {
     margin-top: 50px;
     align-items: center;
     justify-content: space-evenly;
@@ -31,4 +32,33 @@
 .imag-logo {
     width: 258px;
     height: 80px;
+}
+
+.link-phone {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .link-pc {
+        display: none;
+    }
+
+    .link-phone {
+        display: block;
+    }
+
+    .link-phone {
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .link-phone a {
+        padding: 2px;
+    }
 }
