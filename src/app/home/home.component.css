@@ -22,7 +22,6 @@
 }
 
 
-
 .title {
     font-family: aaa;
     font-size: 47px;
@@ -34,7 +33,6 @@
     margin-top: 20px;
     font-size: 22px;
 }
-
 
 
 /*content-2*/
@@ -119,8 +117,20 @@
 
 /*content-23*/
 .content-3 {
-    background-color: #3D361C;
-    height: 400px;
+    background-color: black;
+    /*min-height: 400px;*/
+}
+.link-btn {
+    margin: 40px auto auto auto;
+    height: 40px;
+    min-height: 18px;
+    width: 142px;
+}
+
+.image {
+    width: 90%;
+    margin: auto;
+    height: auto;
 }
 
 .content-4 {
@@ -143,3 +153,37 @@
     font-family: "BrandonGrotW01-Light", serif;
     font-size: 18px;
 }
+.content-4-form {
+    width: 50%;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.required-data {
+    /*display: flex;
+    flex-direction: column;*/
+
+    width: 50%;
+}
+.message {
+    width: 50%;
+}
+
+.message input {
+    margin-bottom: 3px;
+    font-size: 20px;
+    height: 133px;
+    border: 1px solid black;
+    width: 300px
+}
+
+.required-data-field {
+    margin-bottom: 3px;
+    font-size: 20px;
+    height: 40px;
+    border: 1px solid black;
+    width: 300px
+}
+
+
