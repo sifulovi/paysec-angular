@@ -30,11 +30,11 @@
 
 
 .title {
-    font-family: aaa;
+    font-family: ufont;
 }
 
 .height-404 {
-    font-family: aaa;
+    font-family: ufont;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -69,7 +69,7 @@
 .service-title {
     color: aqua;
     font-size: 30px;
-    font-family: aaa;
+    font-family: ufont;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -90,7 +90,7 @@
 .security-title {
     color: aqua;
     font-size: 30px;
-    font-family: aaa;
+    font-family: ufont;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -111,7 +111,7 @@
 .partner-title {
     color: aqua;
     font-size: 30px;
-    font-family: aaa;
+    font-family: ufont;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -160,7 +160,7 @@
     color: #51D6BB;
     margin-top: 20px;
     text-align: center;
-    font-family: aaa;
+    font-family: ufont;
     font-size: 38px;
 }
 
