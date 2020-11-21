@@ -24,10 +24,11 @@ a {
 }
 
 @font-face {
-    font-family: "BrandonGrotW01-Light";
-    src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot");
-    src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff") format("woff"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light") format("svg");
+    font-family: "Brandon Grotesque Bold";
+    src: url("//db.onlinewebfonts.com/t/47ad0eed0e2657ce7fad8911cc33b28c.eot");
+    src: url("//db.onlinewebfonts.com/t/47ad0eed0e2657ce7fad8911cc33b28c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/47ad0eed0e2657ce7fad8911cc33b28c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/47ad0eed0e2657ce7fad8911cc33b28c.woff") format("woff"), url("//db.onlinewebfonts.com/t/47ad0eed0e2657ce7fad8911cc33b28c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/47ad0eed0e2657ce7fad8911cc33b28c.svg#BrandonGrotesqueWeb-Bold") format("svg");
 }
+
 .link-btn {
     margin: 40px auto auto;
     height: 40px;

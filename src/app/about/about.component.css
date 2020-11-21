@@ -18,8 +18,10 @@
 }
 
 .details {
+    font-family: Brandon Grotesque Bold;
     font-weight: bold;
     margin: auto;
+    font-size: 18px;
     width: 600px;
     text-align: center;
 }
